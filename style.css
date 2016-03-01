@@ -1,0 +1,365 @@
+/***********************************
+Border box sizing
+***********************************/
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/***********************************************
+Clearfix
+***********************************************/
+
+.group:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/***********************************
+Fonts
+***********************************/
+html {
+font-size: 62.5%;
+}
+
+
+@font-face {
+  font-family: "proxima-nova-regular", "helvetica neue", helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #999;
+  src: url(fonts/proximanova-regular.otf);
+  }
+
+  body {
+	font-family: "proxima-nova-regular", "helvetica neue", helvetica,sans-serif;
+	font-size: 1.4rem;
+}
+
+/***********************************
+General
+***********************************/
+
+#canvas {
+	width: 1439px;
+	height: 2158px;
+}
+
+
+h1 {
+	font-size: 2rem;
+	font-weight: 200;
+	color: #000;
+}
+​
+h2{
+	font-size: 2rem;
+	color: rgb (153,153,153);
+	line-height: 2.2rem;
+	letter-spacing: 0.2px;
+	font-weight: 200;
+}
+​
+/***********************************
+Header
+***********************************/
+
+.top_container{
+	width: 90%;
+	padding: 0 10px 0;
+	margin: 0 auto;
+}
+
+.p_logo {
+	display: inline-block;
+	margin-bottom: 12px;
+	padding-right: 10px; 
+}
+
+.width_header{
+	width: 1180px;
+}
+
+#dots_menu,
+.login {
+	display: inline-block;
+	float: right;
+	margin-right: 6px;
+}
+
+#hero {
+display: block;
+margin: 0 auto 28px;
+
+}
+
+#sidebar_top,
+#sidebar_bottom {
+
+	line-height: 2.4rem;
+}
+
+.search{
+	width:300px;
+}
+
+.day_header{
+	float: left;
+}
+
+/***********************************
+Body
+***********************************/
+#width_container{
+
+	width: 1180px;
+	height: 1200px;
+	padding: 0 10px;
+	background-color: #f9f9f9;
+	margin: 0 auto;
+}
+
+/***********************************
+Sidebars
+***********************************/
+#sidebar_container {
+	height: 320px;
+	background-color: #f9f9f9;
+	margin-left: 0;
+	width: 13%;
+	margin-right: 2%;
+	display: inline-block;
+	font-weight: 300;
+	line-height: 
+​}
+
+#sidebar_container li {
+
+	margin-bottom: 0;
+}
+#sidebar_home_container{
+	width: 145px;
+	height: 18px;
+	padding; 3px 5px 1px;
+	background-color: #f9f9f9;
+	margin: 0 0 21px 0;
+}
+
+#sidebar_home {
+	width: 42px;
+	height: 18px;
+	color: #000;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	border-bottom: 1px;
+	list-style:none;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+
+}
+
+#sidebar_categories{
+
+	list-style:none;
+	width: 145px;
+	height: 18px;
+	padding: 0;
+	border-bottom: 1px;
+	color: #000;
+	font-weight: bold;
+	margin: 70px 0 21px 0;
+	background-color: #f9f9f9;
+}
+
+.sidebar_items {
+	width: 145px;
+	height: 32px;
+	color: #999;
+	margin: 21px 0 0 0;
+	padding: 0;
+	background-color: #f9f9f9;
+	list-style:none;
+	line-height: 3.6rem;
+}
+
+.sidebar_items li {
+
+	margin: 0 0 21px 0;
+	padding: 0;
+}
+
+/***********************************
+Images
+***********************************/
+
+#product1, #product2, #product3{
+	width: 110px;
+	height: 110px;
+	border: 1 1 1 1;
+	padding: 0;
+	margin: 20px, 40px, 20px, 20px;
+	float: left; 
+	display: inline-block;
+}
+
+#social_box{
+	width: 250px;
+	height: 250px;
+	border: 1 1 1 1;
+	padding: 20px 20px 20px 20px;
+	margin: 0 0 20px 0;
+	float: right; 
+}
+
+.upvotes{
+	width: 60px;
+	height: 24px;
+	margin: 0 5px 0 0 ;
+	border: 1px 1px 1px 1px;
+	padding: 0 5px 0 5px;
+}
+
+.comments{
+	width: 60px;
+	height: 24px;
+	margin: 0 5px 0 0 ;
+	border: 1px 1px 1px 1px;
+	padding: 0 5px 0 5px;
+}
+
+.save{
+	width: 60px;
+	height: 24px;
+	margin: 0 5px 0 0 ;
+	border: 1px 1px 1px 1px;
+	padding: 0 5px 0 5px;
+}		
+
+.share{
+	width: 60px;
+	height: 24px;
+	margin: 0 5px 0 0 ;
+	border: 1px 1px 1px 1px;
+	padding: 0 5px 0 5px;
+}
+
+/***********************************
+Products
+***********************************/
+
+#products_container{
+	width: 723px;
+	height: 600px;
+	border: 1px 1px 1px 1px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	background-color: red;
+	float: right;
+}
+
+#day_header{
+	width: 683px;
+	height: 44px;
+	padding: 0 0 15px 0;
+	margin: 0 20px 30px;
+	background-color: green;
+	display: block;
+}
+
+#day_title{
+	width: 683px;
+	height: 24px;
+	padding: 18px;
+	border: 0;
+	margin: 0;
+	background-color: yellow;
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+#day_title span{
+	width: 53px;
+	height: 24px;
+}
+
+#secondary_title{
+	float: right;
+	font-size: 14px;
+}
+
+.div_canvas1{
+	width: 673px;
+	height: 164px;
+	margin: 15px 0 0 0;
+	border: 0;
+	padding: 25px 25px 0 25px;
+	background-color: purple;
+}
+
+.div_canvas1 span {
+	font-size: 2rem;
+	font-weight: 300;
+	margin: 0 0 0 20px;
+	line-height: 6rem;
+}
+
+.div_canvas1 h4 {
+	font-weight: 300;
+	color: #999;
+	font-size: 1.4rem;
+	margin: 0 0 15px 20px;
+	padding-left: 0;
+}
+
+.div_canvas2{
+	width: 673px;
+	height: 164px;
+	margin: 15px 0 0 0;
+	border: 0;
+	padding: 25px 25px 0 25px;
+	background-color: purple;
+}
+
+.div_canvas2 span {
+	font-size: 2rem;
+	font-weight: 300;
+	margin: 0 0 0 20px;
+	line-height: 6rem;
+}
+
+.div_canvas2 h4 {
+	font-weight: 300;
+	color: #999;
+	font-size: 1.4rem;
+	margin: 0 0 15px 20px;
+	padding-left: 0;
+}
+
+.div_canvas3{
+	width: 673px;
+	height: 164px;
+	margin: 15px 0 0 0;
+	border: 0;
+	padding: 25px 25px 0 25px;
+	background-color: purple;
+}
+
+.div_canvas3 span {
+	font-size: 2rem;
+	font-weight: 300;
+	margin: 0 0 0 20px;
+	line-height: 6rem;
+}
+
+.div_canvas3 h4 {
+	font-weight: 300;
+	color: #999;
+	font-size: 1.4rem;
+	margin: 0 0 15px 20px;
+	padding-left: 0;
+}
