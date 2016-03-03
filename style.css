@@ -44,9 +44,9 @@ font-size: 62.5%;
 General
 ***********************************/
 
-#canvas {
-	width: 1439px;
-	height: 2158px;
+.canvas {
+	width: 1400px;
+	height: 1200px;
 }
 
 
@@ -69,36 +69,44 @@ Header
 ***********************************/
 
 .top_container{
-	width: 90%;
+	width: 100%;
 	padding: 0 10px 0;
 	margin: 0 auto;
 }
 
 .p_logo {
 	display: inline-block;
-	margin-bottom: 12px;
+	margin: 0 10px 12px 25px;
 	padding-right: 10px; 
+
+}
+
+.box{
+  margin: 0 0 0 0;
+  width: 300px;
+  height: 50px;
 }
 
 .width_header{
-	width: 1180px;
+	width: 95%;
 }
 
-#dots_menu,
+.dots_menu,
 .login {
 	display: inline-block;
 	float: right;
-	margin-right: 6px;
+	margin-right: 15px;
 }
 
-#hero {
-display: block;
-margin: 0 auto 28px;
-
+.hero {
+display: inline-block;
+margin: 0 20px 30px 20px;
+padding: 0 auto;
+width: 98%;
 }
 
-#sidebar_top,
-#sidebar_bottom {
+.sidebar_top,
+.sidebar_bottom {
 
 	line-height: 2.4rem;
 }
@@ -114,7 +122,7 @@ margin: 0 auto 28px;
 /***********************************
 Body
 ***********************************/
-#width_container{
+.width_container{
 
 	width: 1180px;
 	height: 1200px;
@@ -126,7 +134,7 @@ Body
 /***********************************
 Sidebars
 ***********************************/
-#sidebar_container {
+.sidebar_container {
 	height: 320px;
 	background-color: #f9f9f9;
 	margin-left: 0;
@@ -134,14 +142,14 @@ Sidebars
 	margin-right: 2%;
 	display: inline-block;
 	font-weight: 300;
-	line-height: 
+	line-height: 1.3em;
 ​}
 
-#sidebar_container li {
-
+.sidebar_container li {
 	margin-bottom: 0;
 }
-#sidebar_home_container{
+
+.sidebar_home_container{
 	width: 145px;
 	height: 18px;
 	padding; 3px 5px 1px;
@@ -149,7 +157,7 @@ Sidebars
 	margin: 0 0 21px 0;
 }
 
-#sidebar_home {
+.sidebar_home {
 	width: 42px;
 	height: 18px;
 	color: #000;
@@ -163,7 +171,7 @@ Sidebars
 
 }
 
-#sidebar_categories{
+.sidebar_categories{
 
 	list-style:none;
 	width: 145px;
@@ -184,7 +192,7 @@ Sidebars
 	padding: 0;
 	background-color: #f9f9f9;
 	list-style:none;
-	line-height: 3.6rem;
+	line-height: 1.8rem;
 }
 
 .sidebar_items li {
@@ -193,11 +201,61 @@ Sidebars
 	padding: 0;
 }
 
+.sidebar_right_container{
+	float:right;
+	background-color: beige;
+	height: 600px;
+	width: 250px;
+}
+
+.sidebar_right_top {
+	float:right;
+	background-color: pink;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.sidebar_right_bottom{
+	width: 250px;
+	height: 300px;
+	
+}
+
+.chat_img{
+	height: 20px;
+	width: 250px;
+	background-color: silver;
+}
+
+.chat_img_img{
+	display: block;
+	float: left;
+	width: 35px;
+	height: 35px;
+}
+
+.chat_title{
+	font-weight: 600;
+	font-size: 1.4rem;
+	width: 175px;
+	margin-left: 30px;
+	float: left;
+	margin-top: 0em;
+}
+
+.chat_item{
+	font-size: 1.4rem;
+	color: #999;
+	margin: 0 30px 20px 35px;
+	
+	
+}
+
 /***********************************
 Images
 ***********************************/
 
-#product1, #product2, #product3{
+.product1, .product2, .product3{
 	width: 110px;
 	height: 110px;
 	border: 1 1 1 1;
@@ -207,7 +265,7 @@ Images
 	display: inline-block;
 }
 
-#social_box{
+.social_box{
 	width: 250px;
 	height: 250px;
 	border: 1 1 1 1;
@@ -233,7 +291,7 @@ Images
 }
 
 .save{
-	width: 60px;
+	width: 69px;
 	height: 24px;
 	margin: 0 5px 0 0 ;
 	border: 1px 1px 1px 1px;
@@ -241,18 +299,25 @@ Images
 }		
 
 .share{
-	width: 60px;
+	width: 45px;
 	height: 24px;
 	margin: 0 5px 0 0 ;
 	border: 1px 1px 1px 1px;
 	padding: 0 5px 0 5px;
 }
 
+.prick1 {
+	width:35px;
+	height: 35px;
+	margin-left: 15px;
+	display: inline-block;
+}
+
 /***********************************
 Products
 ***********************************/
 
-#products_container{
+.products_container{
 	width: 723px;
 	height: 600px;
 	border: 1px 1px 1px 1px;
@@ -262,7 +327,7 @@ Products
 	float: right;
 }
 
-#day_header{
+.day_header{
 	width: 683px;
 	height: 44px;
 	padding: 0 0 15px 0;
@@ -271,7 +336,7 @@ Products
 	display: block;
 }
 
-#day_title{
+.day_title{
 	width: 683px;
 	height: 24px;
 	padding: 18px;
@@ -282,12 +347,12 @@ Products
 	font-weight: 400;
 }
 
-#day_title span{
+.day_title span{
 	width: 53px;
 	height: 24px;
 }
 
-#secondary_title{
+.secondary_title{
 	float: right;
 	font-size: 14px;
 }
